@@ -1,57 +1,41 @@
 
-# ¸ÅÊö
+# æ¦‚è¿°
 
-Î¢ÐÅµçÄÔ¿Í»§¶Ë¶à¿ª¹¤¾ß£¬Ö§³Ö·ÀÏûÏ¢³·Ïú£¬Ö§³ÖÓïÒôÏûÏ¢±¸·Ý£¨demo£©¡£
+å¾®ä¿¡ç”µè„‘å®¢æˆ·ç«¯å¤šå¼€å·¥å…·ï¼Œæ”¯æŒé˜²æ¶ˆæ¯æ’¤é”€ï¼Œæ”¯æŒè¯­éŸ³æ¶ˆæ¯å¤‡ä»½ï¼ˆdemoï¼‰ã€‚
 
-1. WeChatResourceÄ¿Â¼ÊÇ·À³·Ïú²å¼þÔ´Âë£¬ÔÝÊ±Ö»Ö§³Ö¹Ì¶¨°æ±¾(·ÇÍ¨ÓÃ£¬[¾ßÌå¼û¸üÐÂÈÕÖ¾](#¸üÐÂÈÕÖ¾))£¬ÈçÓÐÐèÒªÇëÁªÏµÎÒ¼æÈÝ»òÕß×ÔÐÐÐÞ¸Ä¡£
-2. MultiWeChatÊÇ¶à¿ªÔ´Âë
-3. binÄ¿Â¼ÊÇÒÑ¾­±àÒëºÃ¿ÉÖ±½ÓÊ¹ÓÃµÄÎÄ¼þ¡£
+1. WeChatResourceç›®å½•æ˜¯é˜²æ’¤é”€æ’ä»¶æºç ï¼Œæš‚æ—¶åªæ”¯æŒå›ºå®šç‰ˆæœ¬(éžé€šç”¨ï¼Œ[å…·ä½“è§æ›´æ–°æ—¥å¿—](#æ›´æ–°æ—¥å¿—))ï¼Œå¦‚æœ‰éœ€è¦è¯·è”ç³»æˆ‘å…¼å®¹æˆ–è€…è‡ªè¡Œä¿®æ”¹ã€‚
+2. MultiWeChatæ˜¯å¤šå¼€æºç 
+3. binç›®å½•æ˜¯å·²ç»ç¼–è¯‘å¥½å¯ç›´æŽ¥ä½¿ç”¨çš„æ–‡ä»¶ã€‚
 
-Ê¹ÓÃ·½·¨£º
+ä½¿ç”¨æ–¹æ³•ï¼š
 
-1. Ë«»÷ÔËÐÐWeChat¶à¿ª(·À³·Ïú).exe¼´¿É¡£
-2. Èç¸üÐÂÁËWeChatResource.dll£¬ÇëÊ¹ÓÃÈçÏÂ²ÎÊýÔËÐÐ£º`WeChat¶à¿ª(·À³·Ïú).exe n`¡£
-3. `superwx.ini`ÅäÖÃÈçÏÂ£º
+1. åŒå‡»è¿è¡ŒWeChatå¤šå¼€(é˜²æ’¤é”€).exeå³å¯ã€‚
+2. å¦‚æ›´æ–°äº†WeChatResource.dllï¼Œè¯·ä½¿ç”¨å¦‚ä¸‹å‚æ•°è¿è¡Œï¼š`WeChatå¤šå¼€(é˜²æ’¤é”€).exe n`ã€‚
+3. `superwx.ini`é…ç½®å¦‚ä¸‹ï¼š
 ```
 	[config]
-	revokemsg=1  #0£º¹Ø±Õ·ÀÏûÏ¢³·Ïú£¬1£º´ò¿ªÏûÏ¢·À³·Ïú
-	voicemsg=c:\ #ÌîÈë±¸·ÝÓïÒôÏûÏ¢µÄÄ¿Â¼£¬¿ÕÎª¹Ø±ÕÓïÒôÏûÏ¢±¸·Ý¹¦ÄÜ
+	revokemsg=1  #0ï¼šå…³é—­é˜²æ¶ˆæ¯æ’¤é”€ï¼Œ1ï¼šæ‰“å¼€æ¶ˆæ¯é˜²æ’¤é”€
+	voicemsg=c:\ #å¡«å…¥å¤‡ä»½è¯­éŸ³æ¶ˆæ¯çš„ç›®å½•ï¼Œç©ºä¸ºå…³é—­è¯­éŸ³æ¶ˆæ¯å¤‡ä»½åŠŸèƒ½
 ```
 
-# ¸üÐÂÈÕÖ¾
+# æ›´æ–°æ—¥å¿—
 
-**2019Äê2ÔÂ1ÈÕ(v1.1.3)**
-1. Ôö¼ÓÖ§³ÖÓïÒôÏûÏ¢±¸·Ý£¨½öÖ§³Ö2.6.6.28£©£¬Ö»ÊÇ¸ödemo£¬ÓÐÌØÊâÐèÒªÇë×ÔÐÐÐÞ¸Ä»òÕßÁªÏµÎÒ¡£
-2. Ôö¼Ó`superwx.ini`ÅäÖÃÎÄ¼þ£¬¿É×ÔÐÐ¿ª¹Ø·ÀÏûÏ¢³·ÏúºÍÓïÒôÏûÏ¢±¸·Ý
-3. [ÏÂÔØµØÖ·](https://github.com/anhkgg/SuperWeChatPC/releases/tag/v1.1.3)
+**2019å¹´2æœˆ1æ—¥(v1.1.3)**
+1. å¢žåŠ æ”¯æŒè¯­éŸ³æ¶ˆæ¯å¤‡ä»½ï¼ˆä»…æ”¯æŒ2.6.6.28ï¼‰ï¼Œåªæ˜¯ä¸ªdemoï¼Œæœ‰ç‰¹æ®Šéœ€è¦è¯·è‡ªè¡Œä¿®æ”¹æˆ–è€…è”ç³»æˆ‘ã€‚
+2. å¢žåŠ `superwx.ini`é…ç½®æ–‡ä»¶ï¼Œå¯è‡ªè¡Œå¼€å…³é˜²æ¶ˆæ¯æ’¤é”€å’Œè¯­éŸ³æ¶ˆæ¯å¤‡ä»½
+  
+# æ›´å¤š
 
-**2018Äê12ÔÂ28ÈÕ(v1.1.2)**
-1. ¸üÐÂÖ§³ÖÎ¢ÐÅ£¨2.6.6.28£©
-2. ¸üÐÂÖ§³ÖËæ»úmutex¶à¿ª
-3. [ÏÂÔØµØÖ·](https://github.com/anhkgg/SuperWeChatPC/releases/tag/v1.1.2)
+æŠ€æœ¯ç»†èŠ‚è¯·å‚è€ƒæ–‡ç« ï¼š
 
-**2018Äê11ÔÂ30ÈÕ(v1.1.1)**£º
-1. Ôö¼ÓÏûÏ¢·À³·Ïú¹¦ÄÜ£¬ÔÝÊ±Ö»Ö§³Ö¹Ì¶¨°æ±¾(2.6.5.38£¬2.6.6.25£©£¬ÈçÓÐÐèÒªÇëÁªÏµÎÒ¼æÈÝ»òÕß×ÔÐÐÐÞ¸Ä¡£
-2. MultiWeChatÔö¼Ó¸üÐÂ°²×°·À³·Ïû²å¼þºÍ¸üÐÂ²å¼þ¹¦ÄÜ¡£
-3. [ÏÂÔØµØÖ·](https://github.com/anhkgg/multi_wechat_pc/releases/tag/v1.1.1)
-4. multi_wechat_pc¸üÃûÎªSuperWeChatPC
-
-**v0.0.1**£º
-1. ½öÖ§³Ö¶à¿ª¹¦ÄÜ£¬[ÏÂÔØµØÖ·](https://github.com/anhkgg/multi_wechat_pc/releases/tag/v0.0.1)
-
-# ¸ü¶à
-
-¼¼ÊõÏ¸½ÚÇë²Î¿¼ÎÄÕÂ£º
-
-1. [https://mp.weixin.qq.com/s/bb7XMxop7e8rd7YqQ88nyA](https://mp.weixin.qq.com/s/bb7XMxop7e8rd7YqQ88nyA)
-2. [https://mp.weixin.qq.com/s/E7N6LzAH4p88Gu4f_qwGlg](https://mp.weixin.qq.com/s/E7N6LzAH4p88Gu4f_qwGlg)
+1 
 
 # TODO
 
-1. ÏûÏ¢±¸·Ý
-2. ÅúÁ¿»Ø¸´£¬·¢ËÍ¡¢¶¨Ê±·¢ËÍ
+1. æ¶ˆæ¯å¤‡ä»½
+2. æ‰¹é‡å›žå¤ï¼Œå‘é€ã€å®šæ—¶å‘é€
 3. ....
 
-# Ö§³Ö×÷Õß
+ 
 
-![img](pay.png)
+ 
